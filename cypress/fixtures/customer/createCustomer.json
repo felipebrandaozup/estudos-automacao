@@ -1,0 +1,68 @@
+{
+    "gender": "F",
+    "personType": "F",
+    "country": "Brasil",
+    "fullName": "Teste Customer",
+    "nickname": "customer.teste",
+    "birthDate": "1994-06-03",
+    "state": "Goiás",
+    "city": "Portelandia",
+    "civilState": "Casado",
+    "occupation": "Analista de Sistemas",
+    "motherName": "Maria Aparecida Alves",
+    "fatherName": "Carlos Aparecido Alves",
+    "numberOfChildren": 2,
+    "income": {
+        "currency": "BRL",
+        "amount": "23.87"
+    },
+    "documents": [
+        {
+            "number": "39014328095",
+            "docType": "CPF"
+        }
+    ],
+    "addresses": [
+        {
+            "street": "Nicomedes",
+            "city": "Uberlândia",
+            "country": "Brasil",
+            "number": "1234",
+            "zipCode": "38411-106",
+            "district": "Morada da Colina",
+            "state": "MG",
+            "name": "Residencial",
+            "complement": "Condomínio Parque",
+            "customFields": {
+                "street": {
+                    "code": "1",
+                    "type": "avenida"
+                },
+                "yourCustomField": {
+                    "someField": "someValue"
+                }
+            }
+        }
+    ],
+    "contacts": [
+        {
+            "contactType": "email",
+            "content": {
+                "name": "Principal",
+                "email": "testeawsqa@gmail.com"
+            }
+        },
+        {
+            "contactType": "PHONE",
+            "content": {
+                "name": "Celular",
+                "countryCode": "55",
+                "areaCode": "34",
+                "lineNumber": "99999-9999"
+            }
+        }
+    ],
+    "customFields": {
+        "someField": "someValue"
+    }
+}

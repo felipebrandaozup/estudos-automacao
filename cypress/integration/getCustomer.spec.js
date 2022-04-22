@@ -36,4 +36,10 @@ describe('Testes de API Cypress', () => {
             expect(res.body.id).to.equal('fb40b839-210c-4313-a5ce-8c6ba29eb5ad')
         })
     })
+
+    it('accessing fixtures', () => {
+        cy.fixture('customer/createCustomer.json').then((customer) => {
+            cy.log("CUSTOMER: ", customer.gender)
+        })
+    })
 })
