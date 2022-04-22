@@ -1,0 +1,12 @@
+{
+    "baseUrl": "https://realwave-dev.gateway.zup.me",
+    "env": {
+        "CLIENT_ID": "realwave_iam_ui",
+        "URL_SSO": "https://keycloak-aws-dev.apirealwave.io/auth/realms/zup/protocol/openid-connect/token/",
+        "USER_ID": "automacao.dev",
+        "PASS_ID": "zup@123",
+        "APPLICATION_ID": "automacao_dev",
+        "ORGANIZATION_SLUG": "zup",
+        "APPLICATION_KEY": "3e5cd2c0191f0134aa4c021e75abe44c"
+    }    
+}

@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "cypress": "^9.5.4"
+  },
+  "dependencies": {
+    "fs-extra": "^10.1.0",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "cy:run:dev": "cypress run --env configFile=dev",
+    "cy:run:qa": "cypress run --env configFile=qa"
+ }
+}
